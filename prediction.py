@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 #load model
-model_dir = 'models/repairmodel.h5'
+model_dir = 'predictmodels/repairmodel.h5'
 model = keras.models.load_model(model_dir)
 
 #load labels
